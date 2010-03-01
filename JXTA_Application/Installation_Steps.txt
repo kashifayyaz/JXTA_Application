@@ -1,0 +1,30 @@
+This folder contains dist folder from which you can run the application, JXTA_AnnotationPeer3 is the whole source of project. latestdb is the database.
+
+
+
+First of all enter the IP address and port(1527) of your machine where you wish to run your Rendezvous peer in "seeds.txt". This file should be same for all peer as well as for Rendezvous peer. syntax is available in seeds.txt file with this code.
+
+now copy the RDF folder and "seeds.txt" in dist folder if you wish to run application without netbeans or any IDE.
+
+for the database, copy the "latestdb" folder into your bin folder of derby database.
+
+after this, run your derby database via "StartNetworkServer" command. 
+
+in shell, go in to dist folder and for the rendezvous, give command [>java -cp "JXTA_AnnotationPeer3.jar" JXTA_Rendezvous.Rendezvous]. this command will start the rendezvous application, and you will see a bunch of output. 
+
+
+in another shell, for the peer, give command [>java -jar JXTA_AnnotationPeer3.jar], which will create the peer application****************** here your will see the exception which i discussed with you today.
+
+
+you can check your database running by entering following commands in (shell) bin folder of derby.
+
+a. >ij
+
+b. >connect 'jdbc:derby://localhost:1527/latestdb;create=true';
+
+c. >show tables; 	and select * from Annotation;	etcetera etcetera.
+
+
+
+
+

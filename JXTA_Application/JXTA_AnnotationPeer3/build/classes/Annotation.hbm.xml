@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping
+   PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+   <class name="Annotation" table="annotation">
+      <id name="annID" column="AnnID" type="string" length="50"></id>
+
+      <property name="resourceURL" column="ResourceURL" type="string" length="128"/>
+      <property name="description" column="Description" type="string" length="256"/>
+      <property name="creationTime" column="CreationTime" type="long"/>
+      <property name="annotationAuthor" column="AnnotationAuthor" type="string" length="30"/>
+      <property name="deprecated" column="deprecated" type="boolean" />
+       <property name="fileLocation" column="FileLocation" type="string" length="256"/>
+       <property name="digitalSignatures" column="DigitalSignatures" type="blob"/>
+       <set name="queryData" cascade = "all">
+            <key column="AnnID" />
+            <one-to-many class="AnnotationChild" />
+       </set>
+   </class>
+   <class name="AnnotationChild" table="annotation_child">
+   <id name="childId" column= "QueryTermID" type="string" length="50"></id>
+   <!--<many-to-one name="Annotation" cascade="all" column="AnnID" />-->
+     <property name="text" column="Text" type="string" length="50"/>
+      <property name="concept" column="Concept" type="string" length="50"/>
+   </class>
+
+</hibernate-mapping>

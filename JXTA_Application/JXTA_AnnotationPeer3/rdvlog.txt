@@ -1,0 +1,34 @@
+Mon Mar 01 00:04:09 CET 2010Joined group: urn:jxta:uuid-79B6A084D3264DF8B641867D926C48D902 "My App Group"[1] / urn:jxta:uuid-8B33E028B054497B8BF9A446A224B1FF02 "My NetPG"[2] / urn:jxta:jxta-WorldGroup "World PeerGroup"[1]
+Awaiting rendezvous conx...
+Mon Mar 01 00:03:37 CET 2010  Rdv: event=RDVCONNECT from peer = urn:jxta:uuid-79B6A084D3264DF8B641867D926C48D9F8BA10F44BA74475ABE2BB568892B0DC03
+Awaiting rendezvous conx...
+Mon Mar 01 00:03:37 CET 2010  Rdv: event=RDVRECONNECT from peer = urn:jxta:uuid-79B6A084D3264DF8B641867D926C48D9F8BA10F44BA74475ABE2BB568892B0DC03
+Awaiting rendezvous conx...
+///////////////////////////////////////////////////////////////////
+Mon Mar 01 00:04:11 CET 2010Joined group: urn:jxta:uuid-79B6A084D3264DF8B641867D926C48D902 "My App Group"[1] / urn:jxta:uuid-8B33E028B054497B8BF9A446A224B1FF02 "My NetPG"[2] / urn:jxta:jxta-WorldGroup "World PeerGroup"[1]
+Awaiting rendezvous conx...
+Mon Mar 01 00:03:38 CET 2010  Rdv: event=RDVCONNECT from peer = urn:jxta:uuid-79B6A084D3264DF8B641867D926C48D9F8BA10F44BA74475ABE2BB568892B0DC03
+Awaiting rendezvous conx...
+Mon Mar 01 00:03:38 CET 2010  Rdv: event=RDVRECONNECT from peer = urn:jxta:uuid-79B6A084D3264DF8B641867D926C48D9F8BA10F44BA74475ABE2BB568892B0DC03
+Awaiting rendezvous conx...
+///////////////////////////////////////////////////////////////////
+Mon Mar 01 00:05:11 CET 2010Mon Mar 01 00:05:05 CET 2010  Rdv: event=RDVCONNECT from peer = urn:jxta:uuid-79B6A084D3264DF8B641867D926C48D9F8BA10F44BA74475ABE2BB568892B0DC03
+Propagate pipes and listeners created
+Propagate PipeID: urn:jxta:uuid-79B6A084D3264DF8B641867D926C48D9E2FC714C47274E9395F3A4CD2E7F331F04
+///////////////////////////////////////////////////////////////////
+Mon Mar 01 00:05:12 CET 2010Mon Mar 01 00:05:06 CET 2010  Rdv: event=RDVCONNECT from peer = urn:jxta:uuid-79B6A084D3264DF8B641867D926C48D9F8BA10F44BA74475ABE2BB568892B0DC03
+Propagate pipes and listeners created
+Propagate PipeID: urn:jxta:uuid-79B6A084D3264DF8B641867D926C48D9E2FC714C47274E9395F3A4CD2E7F331F04
+///////////////////////////////////////////////////////////////////
+Mon Mar 01 00:05:29 CET 2010Message sent: search
+///////////////////////////////////////////////////////////////////
+Mon Mar 01 00:05:30 CET 2010Search Message from other peer: Mon Mar 01 00:05:22 CET 2010 urn:jxta:uuid-59616261646162614E50472050325033474E3F735B8F4BA287E38AEBB0253DDD03 says author = s*
+going to send the file located at RDF//38126fa0-23fb-11df-affc-000000000000.n3
+///////////////////////////////////////////////////////////////////
+Mon Mar 01 01:45:40 CET 2010Joined group: urn:jxta:uuid-79B6A084D3264DF8B641867D926C48D902 "My App Group"[1] / urn:jxta:uuid-8B33E028B054497B8BF9A446A224B1FF02 "My NetPG"[2] / urn:jxta:jxta-WorldGroup "World PeerGroup"[1]
+Awaiting rendezvous conx...
+Mon Mar 01 01:44:03 CET 2010  Rdv: event=RDVCONNECT from peer = urn:jxta:uuid-79B6A084D3264DF8B641867D926C48D9F8BA10F44BA74475ABE2BB568892B0DC03
+Awaiting rendezvous conx...
+Mon Mar 01 01:44:03 CET 2010  Rdv: event=RDVRECONNECT from peer = urn:jxta:uuid-79B6A084D3264DF8B641867D926C48D9F8BA10F44BA74475ABE2BB568892B0DC03
+Awaiting rendezvous conx...
+///////////////////////////////////////////////////////////////////
